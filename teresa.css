@@ -1,0 +1,130 @@
+body{
+    background-color:#ddd;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-decoration: none;
+    margin: auto;
+
+    
+    
+}
+#form{
+    background-color: rgb(56, 100, 108);
+    width: 55%;
+    
+    text-align: center;
+    border-radius: 20px; 
+   margin-top: 11%;
+   opacity: 0.7;
+   transition: 3s; 
+   
+}
+#form:hover{
+    opacity: 1;
+    
+}
+#tete{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    color:rgb(56, 100, 108);
+    font-weight: bold;
+   background-color: #ddd;
+    
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#b{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+input{
+    text-decoration: none;
+    border: blue;
+    width: 200px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 15px;
+    color: rgb(56, 100, 108);
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    text-decoration: none;
+    background-color:#ddd;
+    border-radius: 20px;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
+    color: rgb(56, 100, 108);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+}button:hover{ opacity: 1; }
+#te{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.5em;
+
+
+    
+}
+#score{
+   font-size: 4em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(56, 100, 108);
+background-color: #ddd;
+padding: 10px;
+border-radius: 50px;
+border: 3px solid black;
+
+
+   
+    
+   
+}
+#yes{
+    color: #ddd;
+    lighting-color: #ddd;
+}
+#footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    color: rgb(56, 100, 108);
+    font-size: 1.5em;
+    margin-top: 25px;
+    background-color: #ddd;
+    
+
+}
+img{
+    width: 60px;
+    height: 70px;
+    margin-top: -20px; ;
+    filter:grayscale(100%);
+    transition: 2s;
+}
+img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.5);
+    
+}
+
+#re{
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: rgb(43, 197, 8);
+    opacity: 0.6;
+    border:4px solid #ddd; 
+}
+#re:hover{
+    opacity: 1;
+}
